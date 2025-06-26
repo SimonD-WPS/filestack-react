@@ -28,8 +28,9 @@ const PickerInline = ({
     return (
       <div
         data-testid='picker-inline'
-        style={{ height: '500px' }}
+        style={{ height: '200px', zIndex: 1 }}
         id={containerId}
+        zIndex={1}
       />
     );
   };
